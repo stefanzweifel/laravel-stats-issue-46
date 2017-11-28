@@ -2334,12 +2334,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/stefanzweifel/laravel-stats.git",
-                "reference": "c23930446a5d553d3ff3d0bb2e31b40ae225669f"
+                "reference": "aa8cf1ab11732d8c2f30b8328d8624028d085715"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/stefanzweifel/laravel-stats/zipball/c23930446a5d553d3ff3d0bb2e31b40ae225669f",
-                "reference": "c23930446a5d553d3ff3d0bb2e31b40ae225669f",
+                "url": "https://api.github.com/repos/stefanzweifel/laravel-stats/zipball/aa8cf1ab11732d8c2f30b8328d8624028d085715",
+                "reference": "aa8cf1ab11732d8c2f30b8328d8624028d085715",
                 "shasum": ""
             },
             "require": {
@@ -2388,7 +2388,7 @@
                 "stats",
                 "wnx"
             ],
-            "time": "2017-11-25T20:02:02+00:00"
+            "time": "2017-11-28T20:33:31+00:00"
         }
     ],
     "packages-dev": [

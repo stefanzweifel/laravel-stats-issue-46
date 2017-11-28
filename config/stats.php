@@ -33,6 +33,20 @@ return [
      * If none of the default strategies fit for your usecase, you can
      * write your own class which implements the RejectionStrategy Contract.
      */
-    'rejection_strategy' => \Wnx\LaravelStats\RejectionStrategies\RejectVendorClasses::class,
+    'rejection_strategy' => \Wnx\LaravelStats\RejectionStrategies\RejectInternalClasses::class,
+
+    /*
+     * Namespaces which should be ignored.
+     * Laravel Stats uses the `starts_with`-string helper, to
+     * check if a Namespace should be ignored.
+     *
+     * You can use `Illuminate` to ignore the entire `Illuminate`-namespace
+     * or `Illuminate\Support` to ignore a subset of the namespace.
+     */
+    'ignored_namespaces' => [
+        'Wnx\LaravelStats',
+        'Illuminate',
+        'Symfony',
+    ],
 
 ];
